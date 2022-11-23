@@ -1,0 +1,142 @@
+h1 {
+    text-align: center;
+}
+
+header {
+    height: 80px;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    background: white;
+}
+
+.logo{
+    float: left;
+    width: 25%;
+
+}
+.logo img {
+ width: 75px;   
+}
+
+.main-menu {
+   width: 50%;
+   float: left; 
+   text-align: center; 
+}
+.main-menu ul{
+    list-style: none;
+}
+.main-menu ul li {
+display: inline;
+}
+.main-menu ul li a {
+text-decoration: none;
+padding: 25px;
+color: rgb(11, 101, 11);
+font-size: 25px;
+line-height: 3;
+}
+.main-menu ul li a:hover {
+    color: gray;
+    }
+
+    .Number{
+        float: right;
+        padding-top: 20px;
+        width: 24%;
+        font-size: 25px;
+        text-align: right;
+        padding-right: 10px;
+    }
+    
+
+    .Number i {
+        color:rgb(9, 75, 13);
+        margin-right: 10px;
+
+    }
+    .logo span{
+        font-size: 30px;
+        margin-top: 35px;
+        position: absolute;
+    }
+
+    .banner {
+    min-height: 700px;
+    width: 100%;
+    background-color: #ccc;
+    }
+
+    .clear {
+        clear: both;
+    }
+    .About {
+        padding: 15px 150px;
+        border-bottom: 1px solid gray  ;
+    }
+    .About p img {
+        float: right;
+        width: 55%; 
+        margin-left: 40px;
+    }
+    .About p {
+        text-align: justify;
+        font-size: 24px;
+    }
+    .Menu  {
+        padding: 15px 150px;
+    }
+
+    .column {
+        float: left;
+        width:50% ;
+        padding: 5px;
+    } 
+    .row ::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .Contact{
+        padding: 15px 150px;
+    }
+    .ContactForm {
+        float: left;
+        width: 50%;
+    }
+    .Map{
+        float: right;
+        width: 46%;
+        padding-top: 60px;
+        margin-left: 10px;
+    }
+    .ContactForm input, textarea {
+    width: 100%;
+    }
+    .social a img {
+        width: 50px;
+        margin-left: 20px;
+    }
+    .follow {
+        padding-left: 75px;
+    }
+
+    .topfooter {
+       padding: 50px 150px;
+       color:white;
+       background-color:#303030; 
+    }
+    .topfooter table {
+        width: 100%;
+    }   
+    .bottomfooter {
+        padding: 20px 150px;
+        text-align: center;
+        background-color: rgb(63, 61, 61);
+        color: white;
+    }
